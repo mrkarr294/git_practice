@@ -1,0 +1,12 @@
+Goal: Design a random astrology message generator
+
+Features:
+- All 12 signs will be featured
+-There will be 12 characteristics for each sign
+-There will be a final message displayed to encourage what to do for the displayed
+
+Notes:
+-Each sign, characteristic, and message are randomly chosen. This means that the characteristics given to that sign might be from a completely different sign.
+-The signs will be stored in an array as an object.
+-Each sign should be an object that also contains different characteristics
+-The final messages will be stored in a seperate array and again chosen randomly.
