@@ -146,22 +146,7 @@ const replaceLastCommaAndMakeString = smallArray => {
     return modifiedString.toLowerCase();
 }
 
-/*
-//combine all methods for the strings and return as a single set --legacy code
-const fullRandomGenerator = (string1, string2, string3) => {
-    if(string1 === 'Leo')
-    {   
-        let artWork = astrologySignsAndCharacteristics[4].Art; 
-         return `Your sign is ${string1}. You are ${string2}. ${string3}` + artWork;
-    }
-    return `Your sign is ${string1}. You are ${string2}. ${string3}`;
-}
 
-
-//Generate the full comment 
-console.log(fullRandomGenerator(generateRandomSign(astrologySignsAndCharacteristics), replaceLastCommaAndMakeString(generateRandomCharacteristics(astrologySignsAndCharacteristics)), generateRandomQuote(encouragmentQuotes)));
-
-*/
 
  
 // Combine all methods for the strings and return as a single set
